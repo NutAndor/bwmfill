@@ -1,0 +1,153 @@
+{
+    "maps": [
+        {
+            "fileName": "created/maps/bwmfill2.tmx",
+            "height": 544,
+            "width": 1280,
+            "x": 960,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/bwmfill3.tmx",
+            "height": 960,
+            "width": 928,
+            "x": 960,
+            "y": 576
+        },
+        {
+            "fileName": "created/maps/bwmfill4.tmx",
+            "height": 704,
+            "width": 192,
+            "x": 960,
+            "y": 1568
+        },
+        {
+            "fileName": "created/maps/bwmfill5.tmx",
+            "height": 640,
+            "width": 704,
+            "x": 1184,
+            "y": 1568
+        },
+        {
+            "fileName": "created/maps/bwmfill6.tmx",
+            "height": 640,
+            "width": 448,
+            "x": 1920,
+            "y": 1568
+        },
+        {
+            "fileName": "created/maps/bwmfill7.tmx",
+            "height": 640,
+            "width": 416,
+            "x": 2176,
+            "y": 2240
+        },
+        {
+            "fileName": "created/maps/bwmfill8.tmx",
+            "height": 960,
+            "width": 288,
+            "x": 2176,
+            "y": 2912
+        },
+        {
+            "fileName": "altered/maps/blackwater_mountain15.tmx",
+            "height": 960,
+            "width": 480,
+            "x": -64,
+            "y": 0
+        },
+        {
+            "fileName": "altered/maps/blackwater_mountain16.tmx",
+            "height": 960,
+            "width": 480,
+            "x": 448,
+            "y": 0
+        },
+        {
+            "fileName": "altered/maps/blackwater_mountain30.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 1184,
+            "y": 2240
+        },
+        {
+            "fileName": "altered/maps/blackwater_mountain32.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 192,
+            "y": 2304
+        },
+        {
+            "fileName": "altered/maps/blackwater_mountain53.tmx",
+            "height": 288,
+            "width": 960,
+            "x": 288,
+            "y": -320
+        },
+        {
+            "fileName": "altered/maps/blackwater_mountain54.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 1280,
+            "y": -512
+        },
+        {
+            "fileName": "altered/maps/blackwater_mountain55.tmx",
+            "height": 608,
+            "width": 736,
+            "x": 192,
+            "y": 1664
+        },
+        {
+            "fileName": "altered/maps/blackwater_mountain56.tmx",
+            "height": 640,
+            "width": 672,
+            "x": 256,
+            "y": 992
+        },
+        {
+            "fileName": "altered/maps/ratdom_bwm1.tmx",
+            "height": 960,
+            "width": 320,
+            "x": 1920,
+            "y": 576
+        },
+        {
+            "fileName": "altered/maps/wild2.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 2400,
+            "y": 1568
+        },
+        {
+            "fileName": "altered/maps/wild5.tmx",
+            "height": 640,
+            "width": 832,
+            "x": 2624,
+            "y": 2240
+        },
+        {
+            "fileName": "altered/maps/wild6.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2496,
+            "y": 2912
+        },
+        {
+            "fileName": "altered/maps/wild7.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 2240,
+            "y": 3904
+        },
+        {
+            "fileName": "created/maps/bwmfill1.tmx",
+            "height": 1056,
+            "width": 960,
+            "x": 2272,
+            "y": -512
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
