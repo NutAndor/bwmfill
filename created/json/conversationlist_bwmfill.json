@@ -465,7 +465,7 @@
                 "nextPhraseID":"tunlon_prog_22",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"tunlon_fence2",
                         "value":10
                     }
@@ -479,17 +479,7 @@
     },
     {
         "id":"tunlon_prog_22",
-        "message":"Yeah, these posts are looking really good!",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"tunlon_prog_23"
-            }
-        ]
-    },
-    {
-        "id":"tunlon_prog_23",
-        "message":"Thank you, kid. Here, take this as a small reward.",
+        "message":"Yeah, these posts are looking really good! Thank you, kid. Here, take this as a small reward.",
         "replies":[
             {
                 "text":"No problem. See you!",
@@ -505,11 +495,6 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"tunlon_quest"
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"tunlon_fence2",
-                "value":-10
             }
         ]
     },
