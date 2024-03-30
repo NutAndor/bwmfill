@@ -148,7 +148,7 @@
         "message":"Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down in a long time.",
         "replies":[
             {
-                "text":"Mabye this explains why the forest around here is too dense to get through...",
+                "text":"Mabye this explains why the forest around Crossglen is too dense to get through...",
                 "nextPhraseID":"tunlon_quest_4"
             },
             {
@@ -473,7 +473,15 @@
             },
             {
                 "text":"No, I am still looking for them.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tunlon_fence2",
+                        "value":10,
+						"negate":true
+                    }
+                ]
             }
         ]
     },
@@ -690,7 +698,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"tunlon_fence",
-                "value":231
+                "value":235
             }
         ]
     },

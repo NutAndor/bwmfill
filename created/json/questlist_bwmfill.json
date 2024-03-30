@@ -34,7 +34,7 @@
             },
             {
                 "progress":20,
-                "logText":"Tunlon took a close look at the fences I brought him but didn't like them a lot. The fence posts were too short he said. I should go back and ask for taller ones.",
+                "logText":"Tunlon took a close look at the fences I brought him, but he didn't like them a lot. The fence posts were too short he said. I should go back and ask for taller ones.",
                 "rewardExperience":2000
             },
             {
@@ -50,12 +50,12 @@
                 "logText":"I got a pile of wood for the fences."
             },
             {
-                "progress":231,
+                "progress":235,
                 "logText":"I gave the wood to the woodcraftsman in Brimhaven."
             },
             {
                 "progress":24,
-                "logText":"Brimhaven's wood craftsman made me some nice looking fences. I gave him the gold coins from Tunlon."
+                "logText":"Brimhaven's wood craftsman sold me some nice looking fences."
             },
             {
                 "progress":25,

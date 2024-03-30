@@ -42,7 +42,7 @@
                         "value":23
                     },
                     {
-                        "requireType":"inventoryremove",
+                        "requireType":"inventoryRemove",
                         "requireID":"tunlon_wood",
                         "value":1
                     },
@@ -61,7 +61,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":231
+                        "value":235
                     },
                     {
                         "requireType":"questProgress",
