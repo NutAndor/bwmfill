@@ -72,11 +72,23 @@
         "replies":[
             {
                 "text":"Fine, thank you. Who are you?",
-                "nextPhraseID":"tunlon_start_2"
+                "nextPhraseID":"tunlon_start_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":1,
+						"negate":true
+                    }
+                ]
             },
             {
                 "text":"Good. Do you have anything to trade?",
                 "nextPhraseID":"tunlon_trade"
+            },
+            {
+                "text":"Have you seen Andor, my brother? He looks a bit ...",
+                "nextPhraseID":"tunlon_andor"
             }
         ]
     },
@@ -106,6 +118,59 @@
                         "value":1
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"tunlon_andor",
+        "message":"I know Andor. Of course I do.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tunlon_andor_2"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_andor_2",
+        "message":"Always good for mischief, this boy.",
+        "replies":[
+            {
+                "text":"Yes, that's him. Do you know where he is?",
+                "nextPhraseID":"tunlon_andor_3"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_andor_3",
+        "message":"No. And I want to keep it this way.",
+        "replies":[
+            {
+                "text":"Oh. What has he done to you?",
+                "nextPhraseID":"tunlon_andor_4"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_andor_4",
+        "message":"He always scares my sheep. If you see him, tell him not to show himself here.",
+        "replies":[
+            {
+                "text":"OK. Who are you by the way?",
+                "nextPhraseID":"tunlon_start_2",
+                "nextPhraseID":"tunlon_start_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Good. Do you have anything to trade?",
+                "nextPhraseID":"tunlon_trade"
             }
         ]
     },
@@ -393,7 +458,15 @@
             },
             {
                 "text":"I still have to look for the fences...",
-                "nextPhraseID":"tunlon_noprog"
+                "nextPhraseID":"tunlon_noprog",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tunlon_fence1",
+                        "value":10,
+						"negate":true
+                    }
+                ]
             }
         ]
     },

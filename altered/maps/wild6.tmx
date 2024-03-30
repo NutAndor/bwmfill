@@ -196,7 +196,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VrsOwjAMLF3oxAIC8fH8CWLhD8pUBEjwIQgiZOFeHcdOAreEvHrOnePQNFMc1+O2Ni7b6dhprfOGPVdhnwbL+sDVR3ilOGuBc1l1Rg0OifgwftS4d/rr1Z+gaZwDKRdwjJ81xsv1y8kvCair9bxebvQWeXg/phdieI+dnXFovL+C5K2UyzU85Tli8VarGTn6Sjy5Gqe4TwoPnb3GHUEO0pS0y6mNXkj5otVG9I7nlubrXtErzFEuW+pxyXuEMRJfqb703dvStp5rLOWS9qbxufv80z6B9zEf98kn1Dg3j2fdp12sxuNtN40xwKJxbl0I0P6zhLnc70rYtN/fWq7+4w3w8mr3UINl3661rS3xOQas2ZwH+VJ9D1Br6ewUQ6rviUnyeCjQVItpgLsU48S1NVF6l7yxvQBtfJlM
+   eJy9VrsOwjAMLF1gYgEV8fH8CWLpH5SpCJDgQxBElYV7dRw7KdwS8mjOuXMc2qaaoG3G7dy47quqg73Pjc4bvrntfTyW9YGri/BenXwecC6rzqjBKREfxo8aowcpePUnaBrnQMoFHONnjfFy/XLySwLqaj2vlxu9RR7ej+mF6D9jF2ccGu+vIHkr5fIcnvIcsXir1YwcfSWeXI1T3GeFh84+xx1BDtKUtMupjV5I+aLVRvSO55bm61HRK8xRLlvqccl7hDESX6m+tO99Y1vPNZZySXvT+NxjObQv4H0ux33yCTXOzePFamjX2/F4vZrGGGDROLcuBGj/WcJc7r4SdvX3t5ar/3gDvLzaPdRg+e5Q29aW+BwD1mzOg3ypvgeotXR2iiHV98QkedwXaKrF1MNdinHi2jlRepe8sb0BrAibDQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
@@ -260,7 +260,7 @@
     <property name="place" value="south2"/>
    </properties>
   </object>
-  <object id="12" name="west" type="mapchange" x="0" y="32" width="32" height="480">
+  <object id="12" name="west" type="mapchange" x="0" y="32" width="32" height="448">
    <properties>
     <property name="map" value="bwmfill8"/>
     <property name="place" value="east"/>

@@ -185,26 +185,26 @@
  </tileset>
  <layer id="1" name="Ground" width="9" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNk9EJgDAMRIt++a8r6Aq6gsNWnMA6gnYFB7GFHMSYIP3z44HcHU2pF1855xmL8Z0JxK5koJ9EVDLQL4KfjTOlzs+IhqfdNzC0ObgP2Cgr51yMg7LyXThV7Vyb6Oq3Di/TJwaRgQ5vTEwiAx3enFibZwY6POlnoGve35Cdk6B3Vj/wT61uaV235nz1r6SjpXP4/mlzrP3jWPtXyg0AnrRH
+   eJzNk8ENgzAMRVFz6r1dAVagKzCsUSdoGQG6At0DW8qXnK/E4tBDD09C/h9/7AS5dJ04ZuWTseev8iYW8th7GwFdsr/l8ZlnPTshLgce/708m1SyXjSbVLLWymzGLZWY957KvbKnT2UPePrMoIzKg/qgDm1SntfSgzo01g3Ua9q/gXNp6QvdFQbnvgc95kDzOZHO9+vXOfz/tfYQ7QJ7iHZxhgO63reE
   </data>
  </layer>
  <layer id="2" name="Objects" width="9" height="30">
   <data encoding="base64" compression="zlib">
-   eJy7JMQABjcEIfQ1IP2UiQEOVgkzMFwXZMAAMDXY5PyQ9DcLYMqDQBwTqj3IZoHEb2IxFxe4BlX7UQjVzBs4zHgohGBnANWLMmFXBwLiQLkKIM4B4nwkdTB7QHZISyAwCBwHiukA7ZCRQKgH8U+iuecvkM8jgXD/cUGE2mNA9j0on0cCVd99NHO8mTHVIMslAs37JQ40VwJV/Ck0HEBy2hKo8sji6HKw8LsphKkHHXDhCVsYkMIRZ9jSFjHgGg59xVjSHDKAyV0UwpTDlZZg4BIWPSB3YEvH2NwA8yssbEnxO7IduVjSKDqoZcItf0MQUxzmJuRwBQAd9jtn
+   eJy7JMQABjcEIfQ1KI0MrmMRQ5Z7yoQq5ofER5dLAvK5gDiOCVMe2R4pNH3oQAaPHTBwA4e7kdVnANmiSPxiNLPEgfwKIM5BE4eZgW7HYyR/4XIXDHwEyvNIIML8OJTWAcbJMSD7HpQPUoMM7qPZ6c2MqQZZLhFo3i9xoLkSqOJPoXEPktOWQJVHFkeXewjVd1MIUw864CIQBiCAHNfI4Ykv3eED2NIwCBQTiBOY3EUhTDlcaQkGLmHRA3LHTSz6sLkB5ldY2JLid2Q7conIF7VY8h4M3MCSn2FuQg5XAMj4Nps=
   </data>
  </layer>
  <layer id="3" name="Above" width="9" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEl8UYGA6LQdgwGh2AxC9hUUMq+xIR4tjchQsguwufGnwAnz2MzAwMzMzY7QHJkWIPITW44gBbWCK75Zgg4bD8K0g4nIYSoCROkc2gZdqhhz3oaQObPYTSBj5xGAAAEg8uUg==
+   eJxjYMAEl8UYGA4jYWzgMAlqLhFQA5K/TEANsnnYwCUi1IDAZSQ34QKEzMClhpEZUw0+e2BqCMmhq0Hmw9jI9hwTRFWDzQ1/BQm7bSgBQvGFL30hm0FJfA0Ge9DTBjZ7CKUNfOIwAADeRjUQ
   </data>
  </layer>
  <layer id="4" name="Walkable" width="9" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFCDAJDSQ0M0FoNMhhINdgALnFSADFm0EMNIb9SSw2hMMemBptZpMoTmwboiQFtKn99
+   eJzbKMbAsJEOGASGkhoYoLUaZEArNdgALnFSADFm0EMNIb9SSw2hMMemBptZpMoTmwboiQFC7IHS
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="2" name="east" type="mapchange" x="256" y="32" width="32" height="448">
+  <object id="2" name="east" type="mapchange" x="256" y="64" width="32" height="416">
    <properties>
     <property name="map" value="wild6"/>
     <property name="place" value="west"/>
