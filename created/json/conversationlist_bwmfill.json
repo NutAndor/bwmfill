@@ -1,14 +1,14 @@
 [
     {
         "id":"sign_bwmfill3",
-        "message":"Here lives Tunlon, Crossglen sheep farmer\n\nPlease do not feed any animals."
+        "message":"Here lives Tunlon of Crossglen - sheep farmer\n\nPlease do not feed any animals."
     },
     {
         "id":"bwm_sheep_dialogue",
         "message":"Baa!",
         "replies":[
             {
-                "text":"*pet*",
+                "text":"[Pet]",
                 "nextPhraseID":"X"
             }
         ]
@@ -68,7 +68,7 @@
     },
     {
         "id":"tunlon_start_1",
-        "message":"Hello Kid! How are you?",
+        "message":"Hello kid! How are you?",
         "replies":[
             {
                 "text":"Fine, thank you. Who are you?",
@@ -94,7 +94,7 @@
     },
     {
         "id":"tunlon_start_2",
-        "message":"I am Tunlon, Crossglens sheep farmer.",
+        "message":"I am Tunlon of Crossglen. I look after my flock of sheep here.",
         "replies":[
             {
                 "text":"I am from Crossglen too!",
@@ -133,7 +133,7 @@
     },
     {
         "id":"tunlon_andor_2",
-        "message":"Always good for mischief, this boy.",
+        "message":"Always good for mischief, that boy.",
         "replies":[
             {
                 "text":"Yes, that's him. Do you know where he is?",
@@ -143,7 +143,7 @@
     },
     {
         "id":"tunlon_andor_3",
-        "message":"No. And I want to keep it this way.",
+        "message":"No. And I want to keep it that way.",
         "replies":[
             {
                 "text":"Oh. What has he done to you?",
@@ -153,7 +153,7 @@
     },
     {
         "id":"tunlon_andor_4",
-        "message":"He always scares my sheep. If you see him, tell him not to show himself here.",
+        "message":"He always scares my sheep. If you see him, tell him not to show himself here again.",
         "replies":[
             {
                 "text":"OK. Who are you by the way?",
@@ -760,7 +760,7 @@
     },
     {
         "id":"brv_woodcraftsman_fence2",
-        "message":"Perfect! Thank you for helping out, Kid. Just wait a few minutes.",
+        "message":"Perfect! Thank you for helping out, kid. Just wait a few minutes.",
         "replies":[
             {
                 "text":"N",
