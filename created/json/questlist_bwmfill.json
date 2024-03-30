@@ -6,7 +6,7 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"I found Tunlon, Crossglens sheep farmer, on the hill next to Crossglen. He asked me to help him get some wood for new fences. Since Crossglen doesn't have a lumberjack, I should go to Fallhaven and ask there."
+                "logText":"I found Tunlon, a sheep farmer, on the hill next to Crossglen. He asked me to help him get some wood for new fences. Since Crossglen doesn't have a lumberjack, I should go to Fallhaven and ask there."
             },
             {
                 "progress":2,
@@ -14,7 +14,7 @@
             },
             {
                 "progress":3,
-                "logText":"The woodcutters told me that they have a lot of wood after clearing out the field around them, however all they have is firewood. Apparently this is not suitable for making fences."
+                "logText":"The woodcutters told me that they have a lot of wood after clearing out the field around them, however all they have is firewood. Apparently this is not suitable for making fences. I should explain this to Tunlon."
             },
             {
                 "progress":4,
