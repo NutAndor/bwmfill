@@ -10,12 +10,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":10
+                        "value":100
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":15,
+                        "value":150,
                         "negate":true
                     }
                 ]
@@ -27,12 +27,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":11
+                        "value":110
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":15,
+                        "value":150,
                         "negate":true
                     }
                 ]
@@ -44,12 +44,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":20
+                        "value":200
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":21,
+                        "value":210,
                         "negate":true
                     }
                 ]
@@ -61,12 +61,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":22
+                        "value":220
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":23,
+                        "value":230,
                         "negate":true
                     }
                 ]

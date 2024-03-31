@@ -44,12 +44,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":2
+                        "value":20
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":3,
+                        "value":30,
                         "negate":true
                     }
                 ]
@@ -75,12 +75,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":2
+                        "value":20
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":3,
+                        "value":30,
                         "negate":true
                     }
                 ]
@@ -106,12 +106,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":2
+                        "value":20
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
-                        "value":3,
+                        "value":30,
                         "negate":true
                     }
                 ]
