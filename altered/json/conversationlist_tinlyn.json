@@ -48,7 +48,7 @@
                 ]
             },
             {
-                "text":"Your brother has sent me to ask where I could get fences from. Do you mabye know?",
+                "text":"Your brother has sent me to ask where I could get fences from. Do you maybe know?",
                 "nextPhraseID":"tinlyn_fence_1",
                 "requires":[
                     {

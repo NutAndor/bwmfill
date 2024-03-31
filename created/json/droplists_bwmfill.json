@@ -130,7 +130,7 @@
                 }
             },
             {
-                "itemID":"lamb_meat",
+                "itemID":"lamb_meat2",
                 "chance":"100",
                 "quantity":{
                     "min":3,

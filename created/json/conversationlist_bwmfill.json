@@ -88,7 +88,15 @@
             },
             {
                 "text":"Have you seen Andor, my brother? He looks a bit ...",
-                "nextPhraseID":"tunlon_andor"
+                "nextPhraseID":"tunlon_andor",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":20,
+						"negate":true
+                    }
+                ]
             }
         ]
     },
@@ -109,7 +117,7 @@
                 ]
             },
             {
-                "text":"Nice to meet you.",
+                "text":"Nice to have met you.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -153,10 +161,30 @@
     },
     {
         "id":"tunlon_andor_4",
-        "message":"He always scares my sheep. If you see him, tell him not to show himself here again.",
+        "message":"He scared my sheep. They didn't dare leave the stable for two weeks.",
         "replies":[
             {
-                "text":"OK. Who are you by the way?",
+                "text":"N",
+                "nextPhraseID":"tunlon_andor_5"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_andor_5",
+        "message":"I then confronted him, even though I was a little scared myself.",
+        "replies":[
+            {
+                "text":"And then?",
+                "nextPhraseID":"tunlon_andor_6"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_andor_6",
+        "message":"And then? Nothing. With a look that made my blood run cold, he left.",
+        "replies":[
+            {
+                "text":"Yes, my beloved brother. Who are you by the way?",
                 "nextPhraseID":"tunlon_start_2",
                 "nextPhraseID":"tunlon_start_2",
                 "requires":[
@@ -169,7 +197,7 @@
                 ]
             },
             {
-                "text":"Good. Do you have anything to trade?",
+                "text":"Then that's settled. Another question: Do you have anything to trade?",
                 "nextPhraseID":"tunlon_trade"
             }
         ]
@@ -210,14 +238,48 @@
     },
     {
         "id":"tunlon_quest_3",
-        "message":"Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down in a long time.",
+        "message":"Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down for a long time",
         "replies":[
             {
                 "text":"Mabye this explains why the forest around Crossglen is too dense to get through...",
-                "nextPhraseID":"tunlon_quest_4"
+                "nextPhraseID":"tunlon_quest_3a"
             },
             {
                 "text":"At least not that I know.",
+                "nextPhraseID":"tunlon_quest_4"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_quest_3a",
+        "message":"What do you mean? The climb into the mountains is just northeast of Crossglen?",
+        "replies":[
+            {
+                "text":"Maybe it used to be like that.",
+                "nextPhraseID":"tunlon_quest_3b"
+            },
+            {
+                "text":"If there was a path, it has long since become overgrown.",
+                "nextPhraseID":"tunlon_quest_3b"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_quest_3b",
+        "message":"What do you mean?",
+        "replies":[
+            {
+                "text":"I had to take a long detour past Stoutford and Prim and come from the other side.",
+                "nextPhraseID":"tunlon_quest_3c"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_quest_3c",
+        "message":"Then it's a good thing that I haven't tried to go down to Crossglen with my sheep in recent years.",
+        "replies":[
+            {
+                "text":"In any case, there is no lumberjack in Crossglen.",
                 "nextPhraseID":"tunlon_quest_4"
             }
         ]
@@ -232,20 +294,38 @@
             },
             {
                 "text":"Hmm, now that I think about it...",
-                "nextPhraseID":"tunlon_noquest"
+                "nextPhraseID":"tunlon_quest_4a"
             }
         ]
+    },
+    {
+        "id":"tunlon_quest_4a",
+        "message":"Please don't let me down. There are wolves and worse here threatening my sheep.",
+        "replies":[
+            {
+                "text":"Sigh, I have too good a heart. It's okay, I'll do it.",
+                "nextPhraseID":"tunlon_quest_5"
+            },
+            {
+                "text":"No, forget it. I'm out.",
+                "nextPhraseID":"tunlon_quest_4b"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_quest_4b",
+        "message":"A pity. Come back if you change your mind."
     },
     {
         "id":"tunlon_quest_5",
         "message":"Thank you so much! Here is a bit of gold so you can pay for it.",
         "replies":[
             {
-                "text":"Hehe thank you!",
+                "text":"I will go and get it now.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I will go and get it now.",
+                "text":"Hehe, thank you!",
                 "nextPhraseID":"X"
             }
         ],
@@ -267,6 +347,16 @@
     },
     {
         "id":"tunlon_prog_1",
+        "message":"Hello - are you back yet? I wasn't expecting you yet.",
+        "replies":[
+            {
+                "text":"Well ...",
+                "nextPhraseID":"tunlon_prog_1b"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_prog_1b",
         "message":"Have you found some wood already?",
         "replies":[
             {
@@ -311,15 +401,62 @@
                 ]
             },
             {
+                "text":"Yes. They created a shortcut here into the forest.",
+                "nextPhraseID":"tunlon_prog_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":32
+                    }
+                ]
+            },
+            {
                 "text":"Yes. However, they only have firewood available.",
-                "nextPhraseID":"tunlon_prog_3",
+                "nextPhraseID":"tunlon_prog_2a",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
                         "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":32,
+						"negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"tunlon_prog_2a",
+        "message":"That's good to hear.",
+        "replies":[
+            {
+                "text":"Yes. However, they only have firewood available.",
+                "nextPhraseID":"tunlon_prog_2b"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_prog_2b",
+        "message":"But firewood isn't good for fences.",
+        "replies":[
+            {
+                "text":"Exactly. Where else can you get suitable wood?",
+                "nextPhraseID":"tunlon_prog_2c"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_prog_2c",
+        "message":"Maybe it would be better to buy the finished fences straight away.",
+        "replies":[
+            {
+                "text":"Finished fences? Where do you get something like that from?",
+                "nextPhraseID":"tunlon_prog_3"
             }
         ]
     },
@@ -368,7 +505,26 @@
         "replies":[
             {
                 "text":"Ah, I think I know him.",
-                "nextPhraseID":"tunlon_prog_5"
+                "nextPhraseID":"tunlon_prog_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tinlyn",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I don't know this Tinlyn yet, but I will find him.",
+                "nextPhraseID":"tunlon_prog_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tinlyn",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -377,7 +533,7 @@
         "message":"Please go and ask him, if he knows anyone who could help.",
         "replies":[
             {
-                "text":"On my way!",
+                "text":"I'm on my way!",
                 "nextPhraseID":"X"
             }
         ],
@@ -515,6 +671,34 @@
             {
                 "text":"Mabye...",
                 "nextPhraseID":"tunlon_prog_18"
+            },
+            {
+                "text":"What? All the way over again just because you didn't tell me how high your fences had to be?",
+                "nextPhraseID":"tunlon_prog_17a"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_prog_17a",
+        "message":"But ...",
+        "replies":[
+            {
+                "text":"Do you actually know how far the path is?",
+                "nextPhraseID":"tunlon_prog_17b"
+            },
+            {
+                "text":"I also have something else to do. After all, I'm on Andor's trail.",
+                "nextPhraseID":"tunlon_prog_17b"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_prog_17b",
+        "message":"Please ...",
+        "replies":[
+            {
+                "text":"All right. I'll go again.",
+                "nextPhraseID":"tunlon_prog_18"
             }
         ]
     },
@@ -531,6 +715,16 @@
     },
     {
         "id":"tunlon_prog_21",
+        "message":"Ah, my litle friend.",
+        "replies":[
+            {
+                "text":"Yes, I am back again.",
+                "nextPhraseID":"tunlon_prog_21a"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_prog_21a",
         "message":"Have you brought new fences?",
         "replies":[
             {
@@ -565,6 +759,14 @@
             {
                 "text":"No problem. See you!",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"I love running around and helping. See you!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Hmm, the lamb looks good. What is that exactly?",
+                "nextPhraseID":"tunlon_prog_22a"
             }
         ],
         "rewards":[
@@ -576,6 +778,23 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"tunlon_quest"
+            }
+        ]
+    },
+    {
+        "id":"tunlon_prog_22a",
+        "message":"This is lamb with a special seasoning mixture which of course I won't tell you. Here you have an additional one.",
+        "replies":[
+            {
+                "text":"Thank you. Bye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"lamb_meat2",
+                "value":1
             }
         ]
     },
@@ -686,7 +905,17 @@
     },
     {
         "id":"tinlyn_fence_1",
-        "message":"Sure! There is a woodcutter in Loneford. He should be able to help you out. Have a great day!",
+        "message":"Tunlon? So he's still alive after all. I haven't heard from him in years.",
+        "replies":[
+            {
+                "text":"Yes. And he made me ask you if you knew where you could get fences from.",
+                "nextPhraseID":"tinlyn_fence_1a"
+            }
+        ]
+    },
+    {
+        "id":"tinlyn_fence_1a",
+        "message":"There is a woodcutter in Loneford. He should be able to help you out. Have a great day!",
         "replies":[
             {
                 "text":"Thank you!",
@@ -704,6 +933,12 @@
     {
         "id":"tinlyn_fence_2",
         "message":"[grumbles] Mabye I do. Go over to Loneford and leave me alone.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tinlyn_fence_2a"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -711,6 +946,10 @@
                 "value":110
             }
         ]
+    },
+    {
+        "id":"tinlyn_fence_2a",
+        "message":"[grumbles] So Tunlon is still alive after all. I haven't heard from him in years. This Marauder. [grumbles]"
     },
     {
         "id":"loneford_villager2_fence",
@@ -729,7 +968,7 @@
             },
             {
                 "text":"100 gold is too much.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"loneford_villager2_fence1a"
             }
         ]
     },
@@ -751,6 +990,27 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"tunlon_fence1"
+            }
+        ]
+    },
+    {
+        "id":"loneford_villager2_fence1a",
+        "message":"Take it or leave it. 100 gold pieces.",
+        "replies":[
+            {
+                "text":"OK. I'll take them.",
+                "nextPhraseID":"loneford_villager2_fence1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Forget it.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -783,7 +1043,17 @@
     },
     {
         "id":"brv_woodcraftsman_fence1",
-        "message":"[laughing] Haha! Yes, that's my job. But I'm afraid I haven't got enough wood right now. Please go back to Loneford's woodcutter. We have a deal that he supplies me with wood.",
+        "message":"[laughing] Haha! Yes, that's my job.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_woodcraftsman_fence1a"
+            }
+        ]
+    },
+    {
+        "id":"brv_woodcraftsman_fence1a",
+        "message":"But I'm afraid I haven't got enough wood right now. Please go back to Loneford's woodcutter. We have a deal that he supplies me with wood.",
         "replies":[
             {
                 "text":"Fine, I'm on my way.",
@@ -852,7 +1122,72 @@
         "replies":[
             {
                 "text":"Are you done soon?",
-                "nextPhraseID":"brv_woodcraftsman_fence5"
+                "nextPhraseID":"brv_woodcraftsman_fence4a"
+            }
+        ]
+    },
+    {
+        "id":"brv_woodcraftsman_fence4a",
+        "replies":[
+            {
+                "nextPhraseID":"brv_woodcraftsman_fence5",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_woodcraftsman_fence4d",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_woodcraftsman_fence4c",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_woodcraftsman_fence4b"
+            }
+        ]
+    },
+    {
+        "id":"brv_woodcraftsman_fence4b",
+        "message":"[Sawing]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_woodcraftsman_fence4a"
+            }
+        ]
+    },
+    {
+        "id":"brv_woodcraftsman_fence4c",
+        "message":"[Hammering]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_woodcraftsman_fence4a"
+            }
+        ]
+    },
+    {
+        "id":"brv_woodcraftsman_fence4d",
+        "message":"[Swearing]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_woodcraftsman_fence4a"
             }
         ]
     },
@@ -898,10 +1233,10 @@
         "replies":[
             {
                 "text":"Well ... OK.",
-                "nextPhraseID":"brv_woodcraftsman_fence5",
+                "nextPhraseID":"brv_woodcraftsman_fence6",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":200
                     }
