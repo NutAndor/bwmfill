@@ -53,6 +53,23 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"No, I'm too busy running up and down Blackwater mountain.",
+                "nextPhraseID":"hadracor_fence_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":32,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -84,6 +101,23 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"I'm $playername, running up and down Blackwater mountain for errands.",
+                "nextPhraseID":"hadracor_fence_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":32,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -112,6 +146,23 @@
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
                         "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"No, thanks. I'm too busy running up and down Blackwater mountain.",
+                "nextPhraseID":"hadracor_fence_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":32,
                         "negate":true
                     }
                 ]

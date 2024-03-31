@@ -612,7 +612,7 @@
         "replies":[
             {
                 "text":"Then, willy-nilly, I will explain to Tunlon that I was unsuccessful. He may even want his 200 gold pieces back.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"hadracor_fence_1b"
             }
         ],
         "rewards":[
@@ -622,6 +622,47 @@
                 "value":30
             }
         ]
+    },
+    {
+        "id":"hadracor_fence_1a",
+        "message":"Wait!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"hadracor_fence_2"
+            }
+        ]
+    },
+    {
+        "id":"hadracor_fence_2",
+        "message":"I saw you a few times in the forest over there. Do you go there often?",
+        "replies":[
+            {
+                "text":"Well, I try to avoid it. The route past Stoutford and Prim is long and arduous.",
+                "nextPhraseID":"hadracor_fence_3"
+            }
+        ]
+    },
+    {
+        "id":"hadracor_fence_3",
+        "message":"I like to believe that. Look, I told my men to cut down some trees for you. You can now take a shortcut.",
+        "replies":[
+            {
+                "text":"Really? Thanks alot!",
+                "nextPhraseID":"hadracor_fence_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tunlon_fence",
+                "value":32
+            }
+        ]
+    },
+    {
+        "id":"hadracor_fence_4",
+        "message":"The passage is over there, a bit to the east from here."
     },
     {
         "id":"tinlyn_fence_1",

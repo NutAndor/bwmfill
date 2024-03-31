@@ -17,6 +17,10 @@
                 "logText":"The woodcutters told me that they have a lot of wood after clearing out the field around them, however all they have is firewood. Apparently this is not suitable for making fences. I should explain this to Tunlon."
             },
             {
+                "progress":32,
+                "logText":"Hadracor opened up a passage to the south, so I won't have to take the long way up to Tunlon any more."
+            },
+            {
                 "progress":40,
                 "logText":"I talked to Tunlon again and he told me to talk to his brother Tinlyn if he knew any person who could help me out."
             },
