@@ -624,7 +624,7 @@
         ]
     },
     {
-        "id":"hadracor_fence_1a",
+        "id":"hadracor_fence_1b",
         "message":"Wait!",
         "replies":[
             {
@@ -635,7 +635,7 @@
     },
     {
         "id":"hadracor_fence_2",
-        "message":"I saw you a few times in the forest over there. Do you go there often?",
+        "message":"I saw you a few times in the forest over there coming from the mountains. Do you go there often?",
         "replies":[
             {
                 "text":"Well, I try to avoid it. The route past Stoutford and Prim is long and arduous.",
@@ -662,7 +662,27 @@
     },
     {
         "id":"hadracor_fence_4",
-        "message":"The passage is over there, a bit to the east from here."
+        "message":"The passage is over there, a bit to the east from here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"hadracor_fence_5"
+            }
+        ]
+    },
+    {
+        "id":"hadracor_fence_5",
+        "message":"We were happy to do this for you. Now calm down.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"hadracor_fence_6"
+            }
+        ]
+    },
+    {
+        "id":"hadracor_fence_6",
+        "message":"And stop kissing my feet."
     },
     {
         "id":"tinlyn_fence_1",
