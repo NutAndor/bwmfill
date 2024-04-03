@@ -183,12 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7705" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Ground" width="30" height="20">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRPIpH8SgexaN4FFMNAwBJGbQA
@@ -206,15 +200,15 @@
  </layer>
  <layer id="3" name="Above" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAT5wR5KB4a4kYT4hdcSYTaxedDuJsQsEsOkhlSbkBmw0pXaS6xYY2IdF7RFZBoajsoTDDN0MQm4AqQMAe7ZU1w==
+   eJxjYBgFo2AUjIJRMApGAT5wR5KB4a4kYT4hdcSYTaxedDuJsQsEsOkhlSbkBmw0pXaS6xYY2EdEfBECMDMIuQGkDgCJzlT/
   </data>
  </layer>
  <layer id="10" name="Above2" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwUgFdyUR7DuSuNUNR3BElnZmAwDiVwLN
+   eJxjYBgFo2AUjIJRMApGwUgFdyUR7DuSuNUNR0BL/wIA6YsC4Q==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="20">
+ <layer id="4" name="Walkable" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzdVUEKwDAI2yv2/y/0h2OHgojRqPVSoeCsJmssdr3PiC2A+8e9vU58Y8v49i3e6Dva09gox6v1+JicqJ7ByXCexLD65PkeT1XnjGk9vfs2+R+Su8Mjz9HlrfBn6qt3k+1PVF/RKKMTM8tQbsSPfAtPzw2mH1V9Kv6ETWKfsGjWoX6xb0jm3UKcbI9Q3a3rA/Enj9A=
   </data>
@@ -224,7 +218,7 @@
    eJxjYBgFo2AUjIJRMApGwUgHG8UGzj562g2yC2YfLe0FAEc9BKs=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="928" y="480" width="32" height="96">
    <properties>
     <property name="map" value="crossroads"/>
@@ -284,7 +278,7 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Keys"/>
- <objectgroup id="12" name="Replace">
+ <objectgroup id="12" name="Replace" visible="0">
   <object id="10" name="tunlon_fence:32" type="replace" x="128" y="544" width="128" height="96">
    <properties>
     <property name="Above" value="Above2"/>
