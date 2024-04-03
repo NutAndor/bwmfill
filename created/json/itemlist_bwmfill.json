@@ -169,7 +169,7 @@
         "name":"Specially peppered lamb meat",
         "displaytype":"extraordinary",
         "hasManualPrice":1,
-        "baseMarketCost":65,
+        "baseMarketCost":310,
         "category":"food",
         "useEffect":{
             "increaseCurrentHP":{
