@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="19">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="20">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="30">
@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJyllcENgEAIBK8K+2/BDn2ZXAgLs3CJDwV2AAXf55z3uuLJnt22Krbz3zAr+yRXoktqnDBVT0ivCPu/r3yd3GIuWb4kvw1TxXTM6DNhqjha66S3JK5jZhrxWVUD+V7ds9kdU2bUq/Ko+kU5ikl9J1zKVL4kbzIbLlPNShZH/ChX2TsN57h7ZWLfxNBeEzvdjVV8tDk6dK4Vk+bv1q7qcZlOThutO757T3TXZb4d27FXO4xobeZeMaez5zKJlqNL/1WdVqbr7Htlc74lxZ8y3f2fsZXPB0AZ720=
+   eJyllcENgEAIBK8K+2/BDn2ZXAgLs3CJDwV2AAXf55z3uuLJnt22Krbz3zAr+yRXoktqnDBVT0ivCPu/r3yd3GIuWb4kvw1TxXTM6DNhqjha66S3JK5jZhrxWVUD+V7ds9kdU2bUq/Ko+kU5ikl9J1zKVL4kbzIbLlPNShZH/ChX2TsN57h7ZWLfxNBeEzvdjVV8tDk6dK4Vk+bv1q7qcZlOThutO757T3TXZb4d27FXO4xobeZeMaez5zKJlqNL/1WdVqbr7Htlc76ljN/FVUx3/0dOxfwAIlLsUQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -258,16 +258,10 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="8" name="south2" type="mapchange" x="224" y="928" width="384" height="32">
+  <object id="8" name="south2" type="mapchange" x="224" y="928" width="672" height="32">
    <properties>
     <property name="map" value="bwmfill5"/>
     <property name="place" value="north1"/>
-   </properties>
-  </object>
-  <object id="9" name="south3" type="mapchange" x="736" y="928" width="160" height="32">
-   <properties>
-    <property name="map" value="bwmfill5"/>
-    <property name="place" value="north2"/>
    </properties>
   </object>
   <object id="10" name="sign_bwmfill3" type="sign" x="416" y="64" width="32" height="32"/>
