@@ -62,5 +62,35 @@
         "attackChance":175,
         "blockChance":60,
         "damageResistance":2
-    }
+    },
+	{
+		"id":"gornaud_boss",
+		"name":"Gornaud",
+		"iconID":"monsters_rltiles2:30",
+		"maxHP":135,
+		"maxAP":12,
+		"moveCost":5,
+		"unique":1,
+		"monsterClass":"giant",
+		"attackDamage":{
+			"min":5,
+			"max":20
+		},
+		"spawnGroup":"gornaud_boss",
+		"droplistID":"gornaud_boss",
+		"attackCost":5,
+		"attackChance":90,
+		"blockChance":70,
+		"damageResistance":5,
+		"hitEffect":{
+			"conditionsTarget":[
+				{
+					"condition":"dazed",
+					"magnitude":3,
+					"duration":3,
+					"chance":"50"
+				}
+			]
+		}
+	}
 ]

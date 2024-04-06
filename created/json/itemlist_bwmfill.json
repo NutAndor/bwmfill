@@ -221,5 +221,33 @@
         "displaytype":"quest",
         "category":"other",
         "description":"This looks like some fine woodcraft."
+    },
+    {
+        "id":"stone_mace",
+        "iconID":"items_newb:462",
+        "name":"Gornaud's stone mace",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":639,
+        "category":"mace",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":5,
+                "max":13
+            },
+            "increaseAttackChance":10,
+            "increaseBlockChance":0,
+            "setNonWeaponDamageModifier":122
+        },
+		"hitEffect":{
+			"conditionsTarget":[
+				{
+					"condition":"stunned",
+					"magnitude":1,
+					"duration":3,
+					"chance":"5"
+				}
+			]
+		}
     }
 ]
