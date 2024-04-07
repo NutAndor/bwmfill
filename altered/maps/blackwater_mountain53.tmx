@@ -236,6 +236,7 @@
   </object>
   <object id="6" name="gornaud_2_4" type="spawn" x="224" y="96" width="96" height="64">
    <properties>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="gornaud_2"/>
    </properties>
   </object>
