@@ -235,9 +235,10 @@
                 "min":5,
                 "max":13
             },
+            "increaseAttackCost":7,
             "increaseAttackChance":10,
             "increaseBlockChance":0,
-            "setNonWeaponDamageModifier":122
+            "setNonWeaponDamageModifier":160
         },
 		"hitEffect":{
 			"conditionsTarget":[
