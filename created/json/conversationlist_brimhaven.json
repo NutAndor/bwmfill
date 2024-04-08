@@ -7,7 +7,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay",
+                        "requireID":"bwmfill_nondisplay",
                         "value":43
                     }
                 ]
@@ -17,7 +17,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay",
+                        "requireID":"bwmfill_nondisplay",
                         "value":42
                     }
                 ]
@@ -72,12 +72,12 @@
             },
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay",
+                "rewardID":"bwmfill_nondisplay",
                 "value":40
             },
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay",
+                "rewardID":"bwmfill_nondisplay",
                 "value":41
             }
         ]
@@ -92,12 +92,12 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay",
+                "rewardID":"bwmfill_nondisplay",
                 "value":42
             },
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay",
+                "rewardID":"bwmfill_nondisplay",
                 "value":43
             }
         ]
@@ -112,7 +112,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay",
+                "rewardID":"bwmfill_nondisplay",
                 "value":42
             }
         ]

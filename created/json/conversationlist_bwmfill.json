@@ -9,13 +9,167 @@
         "replies":[
             {
                 "text":"[Pet]",
-                "nextPhraseID":"X"
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"bwm_sheep1",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"You look tasty - attack!",
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"bwm_sheep1",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"Attack!",
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"bwm_sheep1",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
     {
+        "id":"bwmfill_killsheep",
+        "replies":[
+            {
+                "nextPhraseID":"bwmfill_killsheep_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"bwm_sheep1",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"bwmfill_killsheep_10",
+        "replies":[
+            {
+                "nextPhraseID":"bwmfill_killsheep_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwmfill_nondisplay",
+                        "value":44,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bwmfill_killsheep_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":12,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"bwmfill_killsheep_12",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tunlon_fence",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"bwmfill_killsheep_20",
+		"switchToNPC":"tunlon2",
+        "message":"You filthy MURDERER!!",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"bwmfill_killsheep_22"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwmfill_nondisplay",
+                "value":44
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tunlon",
+				"mapName":"bwmfill3"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tunlon2",
+				"mapName":"bwmfill3"
+            }
+        ]
+    },
+    {
+        "id":"bwmfill_killsheep_22",
+        "message":"My poor sheep! What have you done?!",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"bwmfill_killsheep_24"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tunlon_fence",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"bwmfill_killsheep_24",
+        "message":"Just you wait - you will pay for it!!"
+    },
+    {
+        "id":"dummy_key_noPhrase"
+    },
+    {
         "id":"tunlon_start",
         "replies":[
+            {
+                "nextPhraseID":"tunlon_killed_sheep",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"bwm_sheep1",
+                        "value":1
+                    }
+                ]
+            },
             {
                 "text":"N",
                 "nextPhraseID":"tunlon_start_1",
@@ -161,7 +315,7 @@
     },
     {
         "id":"tunlon_andor_4",
-        "message":"He scared my sheep. They didn't dare leave the stable for two weeks.",
+        "message":"He scared my sheep. They didn't dare to leave the stable for two weeks.",
         "replies":[
             {
                 "text":"N",
@@ -238,7 +392,7 @@
     },
     {
         "id":"tunlon_quest_3",
-        "message":"Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down for a long time",
+        "message":"Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down there for a long time",
         "replies":[
             {
                 "text":"Mabye this explains why the forest around Crossglen is too dense to get through...",
@@ -848,6 +1002,16 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"hadracor_fence_1c"
+            }
+        ]
+    },
+    {
+        "id":"hadracor_fence_1c",
+        "message":"I like to sit here and look at the mountains and what's moving there. It's very relaxing after our hard work.",
+        "replies":[
+            {
+                "text":"Yes, the mountains are very beautiful - from a distance.",
                 "nextPhraseID":"hadracor_fence_2"
             }
         ]

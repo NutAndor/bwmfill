@@ -107,7 +107,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay",
+                        "requireID":"bwmfill_nondisplay",
                         "value":41,
 						"negate":true
                     },
@@ -155,17 +155,17 @@
             },
             {
                 "rewardType":"removeQuestProgress",
-                "rewardID":"nondisplay",
+                "rewardID":"bwmfill_nondisplay",
                 "value":40
             },
             {
                 "rewardType":"removeQuestProgress",
-                "rewardID":"nondisplay",
+                "rewardID":"bwmfill_nondisplay",
                 "value":42
             },
             {
                 "rewardType":"removeQuestProgress",
-                "rewardID":"nondisplay",
+                "rewardID":"bwmfill_nondisplay",
                 "value":43
             }
         ]
@@ -268,7 +268,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay",
+                        "requireID":"bwmfill_nondisplay",
                         "value":40
                     }
                 ]
@@ -279,7 +279,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay",
+                        "requireID":"bwmfill_nondisplay",
                         "value":42
                     }
                 ]
@@ -290,13 +290,13 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay",
+                        "requireID":"bwmfill_nondisplay",
                         "value":40,
 						"negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay",
+                        "requireID":"bwmfill_nondisplay",
                         "value":42,
 						"negate":true
                     }

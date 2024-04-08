@@ -9,6 +9,13 @@
                 "logText":"I found Tunlon, a sheep farmer, on the hill next to Crossglen. He asked me to help him get some wood for new fences. Since Crossglen doesn't have a lumberjack, I should go to Fallhaven and ask there."
             },
             {
+                "progress":12,
+                "logText":"Tunlon got furious when he saw that you killed his sheep.",
+                "rewardExperience":5,
+                "finishesQuest":1
+				
+            },
+            {
                 "progress":20,
                 "logText":"I talked to Fallhaven's woodcutter. He told me that he had done a lot of work lately and therefore can't get any more wood for me. However, I should ask the woodcutters near Crossroads Guardhouse if they can help me."
             },
@@ -66,6 +73,32 @@
                 "logText":"Tunlon was happy to see the fences I brought him. These should be just fine, he said.",
                 "rewardExperience":5000,
                 "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"bwmfill_nondisplay",
+        "name":"bwmfill_nondisplay",
+        "stages":[
+            {
+                "progress":40,
+                "logText":"Guard Burhczyd active"
+            },
+            {
+                "progress":41,
+                "logText":"Guard Burhczyd used"
+            },
+            {
+                "progress":42,
+                "logText":"BMP box"
+            },
+            {
+                "progress":43,
+                "logText":"BMP box with normal BMP"
+            },
+            {
+                "progress":44,
+                "logText":"Killed Tunlon's sheep detected"
             }
         ]
     }
