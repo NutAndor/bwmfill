@@ -235,22 +235,10 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="7" name="east2" type="mapchange" x="448" y="704" width="32" height="32">
+  <object id="7" name="east2" type="mapchange" x="448" y="704" width="32" height="224">
    <properties>
     <property name="map" value="bwmfill3"/>
-    <property name="place" value="west1"/>
-   </properties>
-  </object>
-  <object id="8" name="east3" type="mapchange" x="448" y="768" width="32" height="64">
-   <properties>
-    <property name="map" value="bwmfill3"/>
-    <property name="place" value="west2"/>
-   </properties>
-  </object>
-  <object id="9" name="east4" type="mapchange" x="448" y="864" width="32" height="64">
-   <properties>
-    <property name="map" value="bwmfill3"/>
-    <property name="place" value="west3"/>
+    <property name="place" value="west"/>
    </properties>
   </object>
  </objectgroup>

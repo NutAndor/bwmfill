@@ -195,12 +195,12 @@
    eJytVssNwjAMNZVQeyxFCuLIDBy4cMsGdAXELCzBTMwAk6AIRbVSJ36O8k5V7fj58/IhWuAd0c3RCl74J9mltRJenfxt4US5OGYnf2u5aLYS+DqtJo3nMuC8sT40b6kfJUhxvdLfkv+n1/2//TouoqUc5wboZzfIcyvlkcKindP055M4rRzoTANn2E+1NVg1ngLJs1RfDacH90dqR9dFHKb12gCtZm7nXOH/fSR6jBg/50TP8TSHXK3PrR5HO6dj7OtR5kL7bNVA2n/rfYDYNf9SzrX3Tewjx2zQgMaLnik+o9+auDHWe4dzRrh93RsD1ZNVI63uCalffPaIvhEbh1U7pXrQ/iJ+ufwt+y31k/ZRTSx0pta3S8Q5kyc6U83PosmWPWmlSQt/65kia3OcP0BIPq4=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="30" visible="0">
+ <layer id="4" name="Walkable" width="29" height="30">
   <data encoding="base64" compression="zlib">
    eJyllcENgEAIBK8K+7D/5nyZXAgLs3CJDwV2AAXf55z3uuLJnt22Krbz3zAr+yRXoktqnDBVT0ivCPu/r3yd3GIuWb4kvw1TxXTM6DNhqjha66S3JK5jZhrxWVUD+V7ds9kdU2bUq/Ko+kU5ikl9J1zKVL4kbzIbLlPNShZH/ChX2TsN57h7ZWLfxNBeEzvdjVV8tDk6dK4Vk+bv1q7qcZlOThutO757T3TXZb4d27FXO4xobeZeMaez5zKJlqNL/1WdVqbr7Htlc76ljN/FVUx3/0dOxfwA82hUUQ==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="north1" type="mapchange" x="128" y="0" width="128" height="32">
    <properties>
     <property name="map" value="bwmfill2"/>
@@ -213,22 +213,10 @@
     <property name="place" value="south2"/>
    </properties>
   </object>
-  <object id="3" name="west1" type="mapchange" x="0" y="128" width="32" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain16"/>
-    <property name="place" value="east1"/>
-   </properties>
-  </object>
-  <object id="4" name="west2" type="mapchange" x="0" y="192" width="32" height="64">
+  <object id="3" name="west" type="mapchange" x="0" y="128" width="32" height="224">
    <properties>
     <property name="map" value="blackwater_mountain16"/>
     <property name="place" value="east2"/>
-   </properties>
-  </object>
-  <object id="5" name="west3" type="mapchange" x="0" y="288" width="32" height="64">
-   <properties>
-    <property name="map" value="blackwater_mountain16"/>
-    <property name="place" value="east3"/>
    </properties>
   </object>
   <object id="17" name="west4" type="mapchange" x="0" y="512" width="32" height="32">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="6">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="13" height="20">
   <data encoding="base64" compression="zlib">
-   eJyNU8sKwjAQXOrJY1ux5Lv8Pq8+fqAieigUvIgoIi3efKT/YQIJmaTb2Lkku9lkMrMJkUObEosG8hc1r0x8COrfmR9/BVE9d3EJ9TqPa8/IWZ/MH2N4qJpj6jhiEEk/J9X+TUG0Ldx+O7bMuSfx/04aWt9uwq/N8n6uDs69gT8h5xJ0nE2d9WqIM8SL6f3e3Fn3H73SfNifIY6O8VfjCm9oDKyWUsT9rhg+rLf3nELd3cxtb1GLBI0daJaJr43zDjHkA2LM30OEni8iHLE3sFJvb507bT+/5zqb
+   eJyNUksKwjAQDXXlsq1Yci7P59bPBSqii0LBjYgi0uLOT3oAb2AGEuY1TaJvk5mXyUzeS4RgtCnHn4zjBviTjiuT74AnPLN+/pZC1FPOS6gnHvfukV6vrL/GcNM1+5RnxCCTIaf0+VUhxLrg83ZtPX0P8vedCKRvM/LvTfIhVzt9L+CPO3MOOo6mznoVmunikQ65rbkzvT96RfPwfUIzOo+/hDP8oX9gtZQy7nflmYf19p5jqLua2L4talGgsQPNKulr83mHCPmAaAM9mgDvej6LzIj9gYX+e8uctX0Bw/k7ng==
   </data>
  </layer>
  <layer id="3" name="Above" width="13" height="20">
@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="13" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBENg8BHIQYUgK4Gmx50QEgPsj50M0jRS2092OSI1YMsT4keYsKLGHFi9JDqV5gaSvQQo34o6EEH1FBLy7RNSC8AZsOEYw==
+   eJzbKMbAsBENgwCMhgF0Ndj0oANCepD1kWofNjuppQebHLF6kOUp0UNMeBEjToweUv2KnEbI1UOM+qGgBx1QQy0t0zYhvQB4kIQn
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -230,18 +230,18 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object name="gornaud1" type="spawn" x="352" y="384" width="32" height="32">
+  <object id="6" name="gornaud1" type="spawn" x="352" y="384" width="32" height="32">
    <properties>
     <property name="spawngroup" value="gornaud_1"/>
    </properties>
   </object>
-  <object name="primwolf1" type="spawn" x="64" y="96" width="192" height="160">
+  <object id="7" name="primwolf1" type="spawn" x="64" y="96" width="192" height="160">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="primwolf1"/>
    </properties>
   </object>
-  <object name="primwolf2" type="spawn" x="288" y="224" width="128" height="128">
+  <object id="8" name="primwolf2" type="spawn" x="288" y="224" width="128" height="128">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="primwolf1"/>
