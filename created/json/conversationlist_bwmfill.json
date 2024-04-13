@@ -161,7 +161,7 @@
         "id":"tunlon_start",
         "replies":[
             {
-                "nextPhraseID":"tunlon_killed_sheep",
+                "nextPhraseID":"bwmfill_killsheep",
                 "requires":[
                     {
                         "requireType":"killedMonster",
