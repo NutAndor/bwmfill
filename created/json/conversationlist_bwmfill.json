@@ -453,7 +453,7 @@
                 "nextPhraseID":"tunlon_quest_5"
             },
             {
-                "text":"Hmm, now that I think about it...",
+                "text":"Hmm, now that I think about it ...",
                 "nextPhraseID":"tunlon_quest_4a"
             }
         ]
@@ -654,7 +654,7 @@
         "message":"Tinlyn, my brother. Poor guy, lost all of his sheep. He lives north of Crossroads guardhouse.",
         "replies":[
             {
-                "text":"Well... yeah I know him.",
+                "text":"Well ... yeah I know him.",
                 "nextPhraseID":"tunlon_prog_5"
             }
         ]
@@ -773,7 +773,7 @@
                 ]
             },
             {
-                "text":"I still have to look for the fences...",
+                "text":"I still have to look for the fences ...",
                 "nextPhraseID":"tunlon_noprog",
                 "requires":[
                     {
@@ -829,7 +829,7 @@
                 "nextPhraseID":"tunlon_prog_18"
             },
             {
-                "text":"Mabye...",
+                "text":"Mabye ...",
                 "nextPhraseID":"tunlon_prog_18"
             },
             {
@@ -864,7 +864,7 @@
     },
     {
         "id":"tunlon_prog_18",
-        "message":"Thank you. I know I can trust you.",
+        "message":"Thank you. I knew I could trust you.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1189,7 +1189,7 @@
         "message":"No, I don't.",
         "replies":[
             {
-                "text":"So... could you make any?",
+                "text":"So ... could you make any?",
                 "nextPhraseID":"loneford_villager2_fence3"
             }
         ]
@@ -1243,7 +1243,7 @@
         "message":"[pointing to a pile of wood] There.",
         "replies":[
             {
-                "text":"Thank you... I guess.",
+                "text":"Thank you ... I guess.",
                 "nextPhraseID":"X"
             }
         ],
