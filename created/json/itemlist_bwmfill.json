@@ -250,5 +250,23 @@
 				}
 			]
 		}
+    },
+    {
+        "id":"feygard_gold",
+        "iconID":"items_misc:10",
+        "name":"Feygard gold coins",
+        "hasManualPrice":1,
+        "baseMarketCost":1,
+        "category":"money",
+        "description":"A gold goin with the face of Lord Geomyr on it."
+    },
+    {
+        "id":"nor_gold",
+        "iconID":"items_misc:10",
+        "name":"Nor gold coins",
+        "hasManualPrice":1,
+        "baseMarketCost":1,
+        "category":"money",
+        "description":"A gold goin from Nor City."
     }
 ]

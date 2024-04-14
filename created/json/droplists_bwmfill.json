@@ -238,6 +238,14 @@
                 "itemID":"gold",
                 "chance":"100",
                 "quantity":{
+                    "min":10,
+                    "max":30
+                }
+            },
+            {
+                "itemID":"nor_gold",
+                "chance":"100",
+                "quantity":{
                     "min":50,
                     "max":150
                 }

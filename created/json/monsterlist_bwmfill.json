@@ -100,21 +100,21 @@
     },
 	{
 		"id":"gornaud_boss",
-		"name":"Ancient gornaud",
+		"name":"Gornaud leader",
 		"iconID":"monsters_rltiles2:30",
-		"maxHP":135,
+		"maxHP":165,
 		"maxAP":12,
 		"moveCost":5,
 		"unique":1,
 		"monsterClass":"giant",
 		"attackDamage":{
-			"min":5,
-			"max":20
+			"min":10,
+			"max":30
 		},
 		"spawnGroup":"gornaud_boss",
 		"droplistID":"gornaud_boss",
 		"attackCost":5,
-		"attackChance":90,
+		"attackChance":100,
 		"blockChance":70,
 		"damageResistance":5,
 		"hitEffect":{
