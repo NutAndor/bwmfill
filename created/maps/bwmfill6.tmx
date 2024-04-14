@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="14" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="14" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -195,12 +195,12 @@
  </layer>
  <layer id="2" name="Objects" width="14" height="20">
   <data encoding="base64" compression="zlib">
-   eJyVUkEKwkAMDC29CioqelHwQfoOQTwK/sWD4Av8gRU8eRGhrdCLtT7AuwcTusvGNCs6sCw7m51kkgVwSJugIjH8s/XJH/q4uu6csfeWv/R1TQ1ci0PWZTU5f2G13ESdBKpd6pMvLeddqfnV+dQ+Kzn+QasNUCgaifDEkYp48pR5ZkYIjTfbJ98suN9ZANDGd4/Ar8th+7DC+LH4C3vUjdlcbK3fPHJcPXGcz0VPfp2LFncyXNmodv7fZZ+pZ+vA3RW9au16dd2k6T+XJsci1N/L/tj/J+NIhzQslng/D6veR4GbQYz8y/jbRtWem/ORzYr0yB/Pv8H4IfIjXJMBwHRQ98pBfXkDamRLlQ==
+   eJyVUkEKwkAMDC29ClZU7EXBB+k7BPEo+BcPgi/wB1bw5EUKtYIXtT7Aew8mdJemaVZ0YGk3m51kJgtQ4dIGFamJv8N6/DDA1av2Gbtv48lA59TAuThkX5aTxxPWy130SaDeJT/p0mo+lZ6Lbp37rNT4B2EH4KFwpEITx0Xkk6bMMTOCb7RZn1yz4HpnHkAH7708Ny+H9WGF+WPxFvbIG7O52F6/aeS4OvJ4/CY8+XUuWt7JxPIWwMKvv3fpM3m29qqzR79cu36TN22797mpQfW0+9If+/5kHvEQh8USz+d+6X3gVTOIMV60yv9tUH5vZn9ksyI+0sfrbzB/iPERrkkEMI2aWjnIlw/8cUwH
   </data>
  </layer>
  <layer id="3" name="Above" width="14" height="20">
   <data encoding="base64" compression="zlib">
-   eJyVU0EKg0AMDCu+QCgo/qX9UR8k9tAftIV+QOgD9EMa6EDMJnGdi0uSmZHsLBHRpyWaLpSBa1ZdYkw2z6prLEobHF239C2tI0+rX+rJ/UfKa6nxtYe0nwX0/0feU8CL7oZ70D3LQ3/+f19bPt4iI4Ozx9nRLclCyYz2Hp2zNRt5Wvu/VzF3OXgbHh/71Z6Yf9ZEfZdrgAfPb+t7cw/6rCHf40/xrpvXrdvPS09GaT5l3rCfFVnaPEk=
+   eJyVU0EKwkAMDCu+QBBa/Iv+yAeVevAHKviBgg9oP2QDDqTZye46l5ZJZmbJZkVEXp3IdJQMyjHeYkxcx3iPxXlD43nmz7xqmazemqn1W8q5dIi9h7TtBfz5S9lTQVe6G63B918d6vPv+1j342l2ZAjmOAe+LbvQ0uOzx+Cf9ZYya3fPsFTexnXHecw3yrzvRU597gEdMt9dnK01+KuHfY8fpzuvWZd+228zFa37afcN8/kCZ5E7ZQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="14" height="20">
@@ -258,6 +258,12 @@
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="primwolf1"/>
+   </properties>
+  </object>
+  <object id="11" name="wyrm_3" type="spawn" x="96" y="544" width="96" height="64">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="wyrm_3"/>
    </properties>
   </object>
  </objectgroup>

@@ -88,6 +88,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"tunlon_fence",
+                        "value":250,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
                         "value":12,
 						"negate":true
                     }

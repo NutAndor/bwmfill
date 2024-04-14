@@ -100,7 +100,7 @@
     },
 	{
 		"id":"gornaud_boss",
-		"name":"Gornaud",
+		"name":"Ancient gornaud",
 		"iconID":"monsters_rltiles2:30",
 		"maxHP":135,
 		"maxAP":12,

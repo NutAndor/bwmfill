@@ -200,10 +200,10 @@
  </layer>
  <layer id="4" name="Walkable" width="40" height="17">
   <data encoding="base64" compression="zlib">
-   eJzNlV0OwCAIgz3F7n8Fb7j4RhahLehCE5O5TfisP8xnjNmgLdln2+/QPHXk+jtHlBexZXl3+wXxRYweix2H5qFwsHHZtUEMkXYMXx6kKh/yWs2tSvWoIsQbnZsMX9YTJrbCgMZmGZU9mvl2IgeTG91lCp/qZXVuVf+jmDe8j2oDYmLrEDrX7H2l1oTKne39c5qNWdv1/gXNOu0Y
+   eJzNldENwCAIRJ2i+6/gho1/xsjdcdhGEpO2CrwCQn9a6xesIfPz/H7DiuRGrr99IL+Mzc37To/xIcbV5o4pErU+FF03Ny5fxLDyMKnyobMKv1KzzEZlP+sL8aJ74/C5MVFsZxiYrsuYqVFn74QPxTfrZRm+bCyr/1aNP7L5RezRbGBM6hxi91rtV9mZUOnZ0ZnTbEpux/cXA8XpNQ==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="north1" type="mapchange" x="1088" y="0" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain54"/>
@@ -254,7 +254,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="9" name="gornaud1" type="spawn" x="800" y="96" width="288" height="160">
    <properties>
     <property name="spawngroup" value="gornaud_1"/>

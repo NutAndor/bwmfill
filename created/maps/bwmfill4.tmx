@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="6" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="7">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="6" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="8">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -239,6 +239,11 @@
   <object id="6" name="gornaud1" type="spawn" x="32" y="64" width="128" height="128">
    <properties>
     <property name="spawngroup" value="gornaud_1"/>
+   </properties>
+  </object>
+  <object id="7" name="wyrm_2" type="spawn" x="32" y="480" width="96" height="128">
+   <properties>
+    <property name="spawngroup" value="wyrm_2"/>
    </properties>
   </object>
  </objectgroup>

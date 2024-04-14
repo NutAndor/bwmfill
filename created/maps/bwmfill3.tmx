@@ -197,7 +197,7 @@
  </layer>
  <layer id="4" name="Walkable" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJytlUEOgDAIBH2F//D/n/NkYsgCO9AmHiywQ7Hgc1/X83viUnt/WxXb+W+YlX2Sq6PrnHHCzGri1Mphf++VL8kt5qLydfLbMLOYjhl9Jswszj3rpLZOXMdUGnGvOoNzX+nazI4pM+pVeVT1cjkZs/M9sTazo9NweoPkV/WninP8XG5m7zTIonNlYt/EuLV27HQuZ3ukJ5Qv+b7ZjCSzXcV3OU6YJKeNlhOvdEhv0fp2dsUm5zxRj8ic9h5lOlpEl/yrCJPO+8xG7pLid3EVk87/yKmYL8yEUhk=
+   eJytlUsOgDAIRD2F9/D+l3NlYsgA86BNXFg+b4oFn/u6nt8Tl9r726rYzn/DrOwTrU5e54wTZlYTp1YO+3uvfIm2qEXpdfRtmFlMx4w+E2YW5551UlsnrmOqHHGvOoNzX+nazI4pM+ardFT1cjkZs/M9sTazo8vh9AbRV/WninP8XG5m73KQRefKxL6JcWvt2OlczvZITyhf8n2zGUlmu4rvNE6YRNMmlxOv8pDeovXt7IpNznmiHpE57T3KdHKRvORfRZjd/XD1kLuk+Bsmnf+RUzFfg2JR0g==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -316,7 +316,7 @@
    <properties>
     <property name="phrase" value="dummy_key_noPhrase"/>
     <property name="requireId" value="andor"/>
-	<property name="requireNegation" value="true"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
    </properties>
@@ -325,7 +325,7 @@
    <properties>
     <property name="phrase" value="dummy_key_noPhrase"/>
     <property name="requireId" value="andor"/>
-	<property name="requireNegation" value="true"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
    </properties>
@@ -334,7 +334,7 @@
    <properties>
     <property name="phrase" value="dummy_key_noPhrase"/>
     <property name="requireId" value="andor"/>
-	<property name="requireNegation" value="true"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
    </properties>
