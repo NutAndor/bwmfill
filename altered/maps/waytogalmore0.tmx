@@ -342,7 +342,7 @@
     <property name="spawngroup" value="erwyn_soldier"/>
    </properties>
   </object>
-  <object id="29" name="erwyn_soldier2" type="spawn" x="448" y="704" width="448" height="224">
+  <object id="29" name="erwyn_soldier2" type="spawn" x="448" y="576" width="448" height="352">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="erwyn_soldier2"/>
