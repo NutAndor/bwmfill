@@ -1,0 +1,22 @@
+[
+    {
+        "id":"fix_stn_skeletons_50",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Keys_fix_stn_skeletons",
+                "mapName":"waytogalmore0"
+            }
+        ]
+    },
+    {
+        "id":"fix_stn_skeletons_60",
+        "rewards":[
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Keys_fix_stn_skeletons",
+                "mapName":"waytogalmore0"
+            }
+        ]
+    }
+]
