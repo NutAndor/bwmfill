@@ -58,28 +58,6 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"achievements",
-                        "value":30,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":100000
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"passive_achievement_check_3"
-            }
-        ]
-    },
-    {
-        "id":"passive_achievement_grant_2",
-        "message":"Phew, that might have been a nightmare! I never wanted to go through something like that again - neither in a dream nor in reality!",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"achievements",
                         "value":130,
                         "negate":true
                     },
@@ -88,16 +66,11 @@
                         "requireID":"guynmart_mare",
                         "value":2
                     }
-                ],
-        "rewards":[
+                ]
+            },
             {
-                "rewardType":"questProgress",
-                "rewardID":"achievements",
-                "value":130
+                "nextPhraseID":"passive_achievement_check_3"
             }
         ]
-    },
-    {
-        "id":"passive_achievement_check_3"
     }
 ]
