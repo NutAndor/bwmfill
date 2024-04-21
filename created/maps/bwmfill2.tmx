@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="18">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="18">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -196,6 +196,11 @@
  <layer id="3" name="Above" width="40" height="17">
   <data encoding="base64" compression="zlib">
    eJy1VkEOg0AIJCb9gomP7UuaPqL22lt/oB9qOZCs08IOqHPSBYYBdldFRN6jbIDvZ4LJdR9yMbchtiNfhF6ulsuekb+nh+H27KjvevnNqX7IlekBq+3fGurzerE2fp42W8/0E7nWMbazPBUOw3PyNe2ZC9ZmeE2+LYrLaGJ8orMUxWfvo2oPe3l6fariiD2o8PTvPesKtvbIL+ovy49nx8DWGGmo2lgwNXp5NPbs7zLD7/no+tLYHt85zTCr7D6s/JdE+o5Ay4OcS1EfO9vs/unpQT5PB87Wy8nUwPSo5f0A2g5I5A==
+  </data>
+ </layer>
+ <layer id="9" name="Top" width="40" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBCRI5GBiSgDiZY6BdMgpGwSgYBaOAngAAefEBPw==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="40" height="17">
