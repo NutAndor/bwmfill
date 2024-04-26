@@ -401,7 +401,7 @@
         "message":"Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down there for a long time",
         "replies":[
             {
-                "text":"Mabye this explains why the forest around Crossglen is too dense to get through...",
+                "text":"Maybe this explains why the forest around Crossglen is too dense to get through...",
                 "nextPhraseID":"tunlon_quest_3a"
             },
             {
@@ -622,7 +622,7 @@
     },
     {
         "id":"tunlon_prog_3",
-        "message":"Hmm. Mabye my brother knows a place where to get fences.",
+        "message":"Hmm. Maybe my brother knows a place where to get fences.",
         "replies":[
             {
                 "text":"Your brother?",
@@ -829,7 +829,7 @@
                 "nextPhraseID":"tunlon_prog_18"
             },
             {
-                "text":"Mabye ...",
+                "text":"Maybe ...",
                 "nextPhraseID":"tunlon_prog_18"
             },
             {
@@ -1102,7 +1102,7 @@
     },
     {
         "id":"tinlyn_fence_2",
-        "message":"[grumbles] Mabye I do. Go over to Loneford and leave me alone.",
+        "message":"[grumbles] Maybe I do. Go over to Loneford and leave me alone.",
         "replies":[
             {
                 "text":"N",
